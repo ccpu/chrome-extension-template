@@ -24,7 +24,6 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "build:prod": "cross-env DISABLE_NEWTAB=true tsc && cross-env DISABLE_NEWTAB=true vite build",
     "preview": "vite preview",
     "zip": "pnpm run build && node src/zip.js",
     "typecheck": "tsc --noEmit",
