@@ -5,7 +5,7 @@
 ## Features
 
 - ⚡ Vite for fast development and building
-- ⚛️ React 18 with TypeScript
+- ⚛️ React 19 with TypeScript
 - 🎨 Tailwind CSS v4 with custom theme
 - 📦 Manifest V3 support
 - 🔧 ESLint & Prettier configured
