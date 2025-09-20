@@ -16,7 +16,7 @@ export function SidePanel() {
   }, []);
 
   return (
-    <main className="mx-auto p-4 text-center">
+    <main className="mx-auto min-h-screen p-4 text-center">
       <h3 className="my-8 text-2xl leading-5 font-extralight text-cyan-400 uppercase">
         SidePanel Page
       </h3>
