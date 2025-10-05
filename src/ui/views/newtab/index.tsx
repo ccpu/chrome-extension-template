@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './Options';
-import '../../globals.css';
+import { ViewProvider } from '../../components/ViewProvider';
+
+import { NewTab } from './NewTab';
 import './index.css';
 
 ReactDOM.createRoot(document.getElementById('app') as HTMLElement).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <ViewProvider>
+    <NewTab />
+  </ViewProvider>,
 );

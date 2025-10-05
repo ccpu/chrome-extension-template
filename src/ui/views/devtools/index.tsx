@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { ViewProvider } from '../../components/ViewProvider';
+
 import { DevTools } from './DevTools';
-import '../../globals.css';
 import './index.css';
 
 ReactDOM.createRoot(document.getElementById('app') as HTMLElement).render(
-  <React.StrictMode>
+  <ViewProvider>
     <DevTools />
-  </React.StrictMode>,
+  </ViewProvider>,
 );
 
 chrome.devtools.panels.create('ReactCrx', '', '../../devtools.html', () => {
