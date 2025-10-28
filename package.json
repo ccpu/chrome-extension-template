@@ -22,6 +22,7 @@
     "node": ">=14.18.0"
   },
   "scripts": {
+    "setup": "npx @pixpilot/scaffoldfy --config ./setup/scaffoldfy.json",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
